@@ -1,6 +1,6 @@
 import telebot # Создаем экземпляр бота
 import  random
-bot = telebot.TeleBot('5599447629:AAF9jE_ELt7PrMRM0kj4uShgK2i7DlSJFd0')
+bot = telebot.TeleBot('576Lt7PrMRM0kj4uShgK2i7DlSJFd0'
 @bot.message_handler(commands=["start"]) # Функция, обрабатывающая команду /start
 def start(m, res=False):
     bot.send_message(m.chat.id, 'Бот тут. Напишите мне что-нибудь )')
