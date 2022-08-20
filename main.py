@@ -10,5 +10,3 @@ def handle_text(message):
 print ('Бот запущен')
 bot.polling(none_stop=True, interval=0) # Запускаем бота
 # контроль изменений
-print(2+2)
-print(3+3)
